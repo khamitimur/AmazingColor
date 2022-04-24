@@ -81,7 +81,7 @@ public struct AmazingHSBColor: IAmazingColor {
     }
     
     /// Returns a new instance with the provided brightness value.
-    /// - Parameter lightness: Brightness value in degrees.
+    /// - Parameter brightness: Brightness value in degrees.
     public func with(brightness: Float) -> AmazingHSBColor {
         AmazingHSBColor(self.hue, self.saturation, brightness, self.alpha)
     }
