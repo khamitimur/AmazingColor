@@ -25,11 +25,10 @@ public struct AmazingRGBColor: IAmazingColor {
         self.alpha = alpha
     }
     
-    /// Initializes a new instance with the provided hex triplet color representation and alpha value.
+    /// Initializes a new instance with the provided hex triplet color representation.
     /// - Parameters:
     ///   - hex: Hex triplet color representation.
-    ///   - alpha: Alpha value.
-    public init?(hex: String, _ alpha: UInt8 = 255) {
+    public init?(hex: String) {
         guard let (red, green, blue) = AmazingColorModelHelpers.shared.rgb(hex: hex) else {
             return nil
         }
@@ -38,7 +37,7 @@ public struct AmazingRGBColor: IAmazingColor {
         self.green = green
         self.blue = blue
         
-        self.alpha = alpha
+        self.alpha = 255
     }
     
     // MARK: - IAmazingColor
