@@ -68,22 +68,26 @@ public struct AmazingHSBColor: IAmazingColor {
     
     // MARK: - Public Methods
     
-    /// Returns a new instance of the ``AmazingHSBColor`` with the provided hue component value.
+    /// Returns a new instance with the provided hue value.
+    /// - Parameter hue: Hue value in degrees.
     public func with(hue: Float) -> AmazingHSBColor {
         AmazingHSBColor(hue, self.saturation, self.brightness, self.alpha)
     }
     
-    /// Returns a new instance of the ``AmazingHSBColor`` with the provided saturation component value.
+    /// Returns a new instance with the provided saturation value.
+    /// - Parameter saturation: Saturation value in percents.
     public func with(saturation: Float) -> AmazingHSBColor {
         AmazingHSBColor(self.hue, saturation, self.brightness, self.alpha)
     }
     
-    /// Returns a new instance of the ``AmazingHSBColor`` with the provided brightness component value.
+    /// Returns a new instance with the provided brightness value.
+    /// - Parameter lightness: Brightness value in degrees.
     public func with(brightness: Float) -> AmazingHSBColor {
         AmazingHSBColor(self.hue, self.saturation, brightness, self.alpha)
     }
     
-    /// Returns a new instance of the ``AmazingHSBColor`` with the provided alpha component value.
+    /// Returns a new instance with the provided alpha value.
+    /// - Parameter hue: Alpha value.
     public func with(alpha: UInt8) -> AmazingHSBColor {
         AmazingHSBColor(self, alpha)
     }
