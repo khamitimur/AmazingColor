@@ -1,0 +1,16 @@
+{
+  "object": {
+    "pins": [
+      {
+        "package": "AmazingColorHelpers",
+        "repositoryURL": "https://github.com/khamitimur/AmazingColorHelpers.git",
+        "state": {
+          "branch": "master",
+          "revision": "e23a2b3bab3b249f7a1416af94cee0986347773f",
+          "version": null
+        }
+      }
+    ]
+  },
+  "version": 1
+}
