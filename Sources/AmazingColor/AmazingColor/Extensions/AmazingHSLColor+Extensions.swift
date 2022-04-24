@@ -7,7 +7,7 @@
 
 import AmazingColorHelpers
 
-public extension AmazingHSBColor {
+public extension AmazingHSLColor {
     
     // MARK: - Properties
     
