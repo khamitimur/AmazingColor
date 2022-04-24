@@ -35,18 +35,26 @@ public struct AmazingRGBColor: IAmazingColor {
     
     // MARK: - Public Methods
     
+    /// Returns a new instance with the provided red value.
+    /// - Parameter red: Red value.
     public func with(red: UInt8) -> AmazingRGBColor {
         AmazingRGBColor(red, self.green, self.blue, self.alpha)
     }
     
+    /// Returns a new instance with the provided green value.
+    /// - Parameter red: Green value.
     public func with(green: UInt8) -> AmazingRGBColor {
         AmazingRGBColor(self.red, green, self.blue, self.alpha)
     }
     
+    /// Returns a new instance with the provided blue value.
+    /// - Parameter blue: Blue value.
     public func with(blue: UInt8) -> AmazingRGBColor {
         AmazingRGBColor(self.red, self.green, blue, self.alpha)
     }
     
+    /// Returns a new instance with the provided alpha value.
+    /// - Parameter hue: Alpha value.
     public func with(alpha: UInt8) -> AmazingRGBColor {
         AmazingRGBColor(self.red, self.green, self.blue, alpha)
     }
