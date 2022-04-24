@@ -5,7 +5,7 @@
 //  Created by Тимур Хамидов on 24.04.2022.
 //
 
-/// Type-erased representation of a basic color model.
+/// Type-erased basic color model.
 public struct AnyAmazingColor: IAmazingColor {
     
     // MARK: - Private Properties

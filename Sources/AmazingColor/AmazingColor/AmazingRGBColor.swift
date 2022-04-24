@@ -5,7 +5,7 @@
 //  Created by Тимур Хамидов on 03.01.2022.
 //
 
-/// Representation of a RGB color model with an alpha.
+/// RGB color model with an alpha.
 public struct AmazingRGBColor: IAmazingColor {
     
     // MARK: - Initializers

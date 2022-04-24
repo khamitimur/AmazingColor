@@ -5,7 +5,7 @@
 //  Created by Тимур Хамидов on 04.01.2022.
 //
 
-/// Representation of a basic color model.
+/// Basic color model.
 public protocol IAmazingColor: Equatable {
     
     // MARK: - Properties

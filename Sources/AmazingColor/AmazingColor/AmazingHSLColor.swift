@@ -7,7 +7,7 @@
 
 import AmazingColorHelpers
 
-/// Representation of a HSL color model with an alpha.
+/// HSL color model with an alpha.
 public struct AmazingHSLColor: IAmazingColor {
     
     // MARK: - Public Properties
