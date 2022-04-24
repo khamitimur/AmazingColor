@@ -12,13 +12,13 @@ public struct AmazingHSLColor: IAmazingColor {
     
     // MARK: - Public Properties
     
-    /// Return hue value in degrees.
+    /// Gets hue value in degrees.
     public let hue: Float
     
-    /// Returns saturation value in percents.
+    /// Gets saturation value in percents.
     public let saturation: Float
     
-    /// Returns lightness value in percents.
+    /// Gets lightness value in percents.
     public let lightness: Float
     
     // MARK: - Initializers
