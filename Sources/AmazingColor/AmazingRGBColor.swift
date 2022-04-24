@@ -5,6 +5,8 @@
 //  Created by Тимур Хамидов on 03.01.2022.
 //
 
+import AmazingColorHelpers
+
 /// RGB color model with an alpha.
 public struct AmazingRGBColor: IAmazingColor {
     
@@ -20,6 +22,22 @@ public struct AmazingRGBColor: IAmazingColor {
         self.red = red
         self.green = green
         self.blue = blue
+        self.alpha = alpha
+    }
+    
+    /// Initializes a new instance with the provided hex triplet and the alpha value.
+    /// - Parameters:
+    ///   - hex: Hex triplet.
+    ///   - alpha: Alpha value.
+    public init?(hex: String, _ alpha: UInt8 = 255) {
+        guard let (red, green, blue) = AmazingColorModelHelpers.shared.rgb(hex: hex) else {
+            return nil
+        }
+        
+        self.red = red
+        self.green = green
+        self.blue = blue
+        
         self.alpha = alpha
     }
     
