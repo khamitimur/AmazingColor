@@ -1,5 +1,5 @@
 //
-//  AmazingRGBColor+AmazingHSBColor.swift
+//  AmazingRGBColor+Extensions.swift
 //  
 //
 //  Created by Timur Khamidov on 14.01.2022.
